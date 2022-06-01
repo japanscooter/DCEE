@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Gothic A1';
+    src: url('GothicA1-SemiBold.eot');
+    src: url('GothicA1-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('GothicA1-SemiBold.woff2') format('woff2'),
+        url('GothicA1-SemiBold.woff') format('woff'),
+        url('GothicA1-SemiBold.ttf') format('truetype'),
+        url('GothicA1-SemiBold.svg#GothicA1-SemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
