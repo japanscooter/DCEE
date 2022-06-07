@@ -124,6 +124,7 @@ header ul li:last-of-type a{
     font-weight: 500;
     line-height: 150%;
     color: #FFFFFF;
+    text-decoration:none;
 }
 .bath{
     background-color: #FFFFFF;
@@ -237,7 +238,9 @@ header ul li:last-of-type a{
     line-height: 150%;
     color: #FFFFFF;
 }
-
+.catalog{
+      padding-bottom: 150px;
+}
 .catalog h2{
     font-family: 'Gothic A1';
     font-style: normal;
@@ -266,4 +269,22 @@ header ul li:last-of-type a{
 }
 .exm:last-of-type p{
     margin-left: 15px;
+    margin-bottom: 70px;
+}
+.catalog a{
+    display: inline-block;
+    font-family: 'roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    color: #FFFFFF;
+    width: 255px;
+    height: 70px;
+    background: linear-gradient(90deg, #4C6071 0%, #55BDEA 100%);
+    box-shadow: 8px 8px 109px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
 }
