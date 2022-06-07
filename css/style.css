@@ -237,9 +237,7 @@ header ul li:last-of-type a{
     line-height: 150%;
     color: #FFFFFF;
 }
-.catalog{
-  height: 100vh;
-}
+
 .catalog h2{
     font-family: 'Gothic A1';
     font-style: normal;
@@ -248,13 +246,14 @@ header ul li:last-of-type a{
     line-height: 130%;
     color: #373737;
     margin-bottom: 52px;
-    margin-left: 200px;
+    margin-left: 259px;
 }
 
-.up p{
+.exm p{
     margin-right: 15px;
     margin-left: 15px;
     margin-bottom: 40px;
+    margin-top: 20px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -262,28 +261,9 @@ header ul li:last-of-type a{
     line-height: 150%;
     color: #373737;
 }
-.up:first-of-type p{
+.exm:first-of-type p{
     margin-right: 15px;
 }
-.up:last-of-type p{
+.exm:last-of-type p{
     margin-left: 15px;
-}
-.down p{
-    margin-right: 15px;
-    margin-left: 15px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 150%;
-    color: #373737;
-}
-.down:first-of-type p{
-    margin-right: 15px;
-}
-.down:last-of-type p{
-    margin-left: 15px;
-}
-.catalog .group362{
-    margin-bottom: 150px;
 }
