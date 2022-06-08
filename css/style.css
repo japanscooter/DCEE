@@ -328,7 +328,12 @@ header ul li:last-of-type a{
     margin-bottom: 20px;
     border-radius: 20px;
     }
-.vidjets1 img{
-    border-radius: 10px;
+
+.play img{
     position: absolute;
+  border-radius: 10px;
+left: 300px;
+
+
+
 }
