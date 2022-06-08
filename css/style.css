@@ -284,7 +284,8 @@ header ul li:last-of-type a{
     box-shadow: 8px 8px 109px rgba(0, 0, 0, 0.05);
     border-radius: 10px;
     display: flex;
+    text-decoration: none;
     justify-content: center;
     align-items: center;
-    text-decoration: none;
-}
+    margin: auto;
+    }
