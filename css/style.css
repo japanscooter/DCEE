@@ -330,10 +330,13 @@ header ul li:last-of-type a{
     }
 
 .play img{
-    position: absolute;
   border-radius: 10px;
-left: 300px;
-
-
-
+}
+.vdj{
+    position: relative;
+}
+.vidjets a{
+    position: absolute;
+    left: 93px;
+    top:78px;
 }
