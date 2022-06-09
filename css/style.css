@@ -327,6 +327,7 @@ header ul li:last-of-type a{
 .vidjets img{
     margin-bottom: 20px;
     border-radius: 20px;
+    display: block;
     }
 
 .play img{
