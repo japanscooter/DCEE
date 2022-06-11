@@ -1,4 +1,4 @@
-@font-face {
+@font-face{
     font-family: 'Roboto';
     src: url('../fonts/Roboto-Medium.eot');
     src: url('../fonts/Roboto-Medium.eot?#iefix') format('embedded-opentype'),
@@ -11,7 +11,7 @@
     font-display: swap;
 }
 
-@font-face {
+@font-face{
     font-family: 'Gothic A1';
     src: url('../fonts/GothicA1-SemiBold.eot');
     src: url('../fonts/GothicA1-SemiBold.eot?#iefix') format('embedded-opentype'),
@@ -25,72 +25,72 @@
 }
 
 
-* {
+*{
     margin: 0;
     padding: 0;
 }
 
-header {
+header{
     position: absolute;
     width: 100%;
 
 }
 
-.container {
+.container{
     max-width: 1112px;
     margin: auto;
 }
 
-.d-flex {
+.d-flex{
     display: flex;
     justify-content: space-between;
 }
 
-.pad39 {
+.pad39{
     padding-top: 39px;
     padding-bottom: 39px;
 }
 
-header nav ul {
+header nav ul{
     list-style: none;
     display: flex;
     font-family: 'Roboto';
 }
 
-header nav ul li a {
+header nav ul li a{
     font-size: 16px;
     color: #FFFFFF;
 }
 
-header nav ul li {
+header nav ul li{
     margin-right: 10px;
     margin-left: 10px;
 }
 
-header nav ul li:first-of-type a {
+header nav ul li:first-of-type a{
     margin-right: 10px;
 }
 
-header nav ul li:last-of-type a {
+header nav ul li:last-of-type a{
     margin-left: 10px;
 }
 
-header ul li {
+header ul li{
     list-style: none;
 }
 
-header ul li a {
+header ul li a{
     font-size: 16px;
     color: #FFFFFF;
     font-family: 'Roboto'
 }
 
-header ul li:last-of-type a {
+header ul li:last-of-type a{
     margin-left: 10px;
     font-family: 'Roboto';
 }
 
-.main_banner {
+.main_banner{
     background-image: url('../images/back.png');
     background-size: cover;
     height: 100vh;
@@ -98,7 +98,7 @@ header ul li:last-of-type a {
     padding-bottom: 30px;
 }
 
-.main_banner h1 {
+.main_banner h1{
     font-size: 56px;
     color: #FFFFFF;
     padding-top: 60px;
@@ -106,7 +106,7 @@ header ul li:last-of-type a {
     font-family: 'Gothic A1';
 }
 
-.main_banner article {
+.main_banner article{
     margin-bottom: 98px;
     max-width: 512px;
     background: rgba(255, 255, 255, 0.9);
@@ -115,7 +115,7 @@ header ul li:last-of-type a {
     display: flex;
 }
 
-.main_banner article p {
+.main_banner article p{
     font-family: roboto;
     font-style: normal;
     font-weight: 500;
@@ -124,11 +124,11 @@ header ul li:last-of-type a {
     color: #000000;
 }
 
-.main_banner article img {
+.main_banner article img{
     margin-right: 33px
 }
 
-.main_banner a {
+.main_banner a{
     display: inline-block;
     background: linear-gradient(90deg, #4C6071 0%, #55BDEA 100%);
     box-shadow: 0px 0px 166px rgba(0, 0, 0, 0.2), 8px 8px 109px rgba(0, 0, 0, 0.05);
@@ -143,27 +143,27 @@ header ul li:last-of-type a {
     text-decoration: none;
 }
 
-.bath {
+.bath{
     background-color: #FFFFFF;
     padding-bottom: 200px;
     padding-top: 21px;
 }
 
-.group362 {
+.group362{
     margin-bottom: 200px;
     width: 100%;
     display: block
 }
 
-.aic {
+.aic{
     align-items: center;
 }
 
-.w400 {
+.w400{
     width: 400px;
 }
 
-.bath h2 {
+.bath h2{
     font-size: 24px;
     color: #000000;
     padding-bottom: 30px;
@@ -171,7 +171,7 @@ header ul li:last-of-type a {
     font-family: 'Gothic A1';
 }
 
-.bath p {
+.bath p{
     font-family: 'roboto';
     font-style: normal;
     font-weight: 300;
@@ -180,29 +180,29 @@ header ul li:last-of-type a {
     color: #000000;
 }
 
-.mb25 {
+.mb25{
     margin-bottom: 25px;
 }
 
-.w100 {
+.w100{
     width: 100%;
 }
 
-.db {
+.db{
     display: block;
 }
 
-.w615 {
+.w615{
     max-width: 615px;
 }
 
-.discussion {
+.discussion{
     background-color: #FFFFFF;
     padding-bottom: 200px;
     padding-top: 21px;
 }
 
-.discussion h3 {
+.discussion h3{
     margin-bottom: 31px;
     font-family: 'Gothic A1';
     font-style: normal;
@@ -212,12 +212,12 @@ header ul li:last-of-type a {
     color: #000000;
 }
 
-.form-style {
+.form-style{
     margin-bottom: 39px;
     max-width: 392px;
 }
 
-.discussion input {
+.discussion input{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 300;
@@ -231,7 +231,7 @@ header ul li:last-of-type a {
     height: 25px
 }
 
-.comments {
+.comments{
     resize: none;
     width: 100%;
     font-family: 'Roboto';
@@ -246,12 +246,12 @@ header ul li:last-of-type a {
     height: 25px;
 }
 
-.textarea {
+.textarea{
     max-width: 392px;
     margin-bottom: 60px;
 }
 
-.discussion button {
+.discussion button{
     display: flex;
     border: none;
     flex-direction: row;
@@ -272,7 +272,7 @@ header ul li:last-of-type a {
     color: #FFFFFF;
 }
 
-.catalog {
+.catalog{
     padding-bottom: 150px;
     padding-top: 10px;
     text-align: center;
@@ -282,9 +282,10 @@ header ul li:last-of-type a {
 .container-h{
     margin: auto;
     max-width: 920px;
+    text-align: left;
 }
 
-.catalog h2 {
+.catalog h2{
     font-family: 'gothic A1';
     font-style: normal;
     font-weight: 400;
@@ -295,11 +296,11 @@ header ul li:last-of-type a {
 
 }
 
-.exm {
+.exm{
     margin-bottom: 40px;
 }
 
-.exm p {
+.exm p{
     margin-top: 20px;
     font-family: 'Roboto';
     font-style: normal;
@@ -310,7 +311,7 @@ header ul li:last-of-type a {
     text-align: left;
 }
 
-.catalog a {
+.catalog a{
     display: inline-block;
     font-family: 'roboto';
     font-style: normal;
@@ -320,12 +321,12 @@ header ul li:last-of-type a {
     padding: 20px 46px;
     background: linear-gradient(90deg, #4C6071 0%, #55BDEA 100%);
     box-shadow: 8px 8px 109px rgba(0, 0, 0, 0.05);
-
     text-decoration: none;
+    border-radius: 10px;
 
 }
 
-.vidjets {
+.vidjets{
     background-image: url('../images/Group379.png');
     background-size: cover;
     height: 80vh;
@@ -333,7 +334,7 @@ header ul li:last-of-type a {
     padding-top: 60px;
 }
 
-.vidjets h2 {
+.vidjets h2{
     font-family: 'Gothic A1';
     font-style: normal;
     font-weight: 400;
@@ -344,7 +345,7 @@ header ul li:last-of-type a {
 
 }
 
-.vidjets h4 {
+.vidjets h4{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -373,13 +374,15 @@ header ul li:last-of-type a {
 .vdj{
     position: relative;
     max-width: 255px;
-    border-radius: 20px;
-    overflow: hidden;
     display: block;
-}
+ }
 
-.vidjets a {
+.vidjets a{
     position: absolute;
     left: 96px;
     top: 78px;
+}
+.radius{
+    overflow: hidden;
+    border-radius: 20px;
 }
