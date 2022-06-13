@@ -201,8 +201,11 @@ header ul li:last-of-type a{
     padding-bottom: 60px;
     background-color: #4C7169;
     background-image: url('../images/why.png');
-}
+ }
+.WHY article{
+    display: flex;
 
+}
 .WHY h3{
     font-family: 'Gothic A1';
     font-style: normal;
@@ -210,8 +213,97 @@ header ul li:last-of-type a{
     font-size: 24px;
     line-height: 130%;
     color: #FFFFFF;
-
+    margin-left: 300px;
+    margin-bottom: 67px;
 }
+.WHY h4{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #373737;
+}
+.WHY p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 150%;
+    color: #373737;
+}
+.why_block1{
+border-radius: 20px;
+    background-color: #FFFFFF;
+    margin: auto;
+    width: 255px;
+    position: relative;
+}
+.why_block1 h4{
+   padding-top: 162px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 10px;
+}
+.why_block1 p{
+    padding: 0px 30px 50px 30px;
+}
+.svg-pos{
+    position: absolute;
+    top: 50px;
+    left: 97px;
+}
+.why_block2{
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    margin: auto;
+    width: 255px;
+    position: relative;
+}
+.why_block2 h4{
+    padding-top: 162px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+.why_block2 p{
+    padding: 0px 30px 74px 30px;
+}
+
+.why_block3{
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    margin: auto;
+    width: 255px;
+    position: relative;
+}
+.why_block3 h4{
+    padding-top: 162px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 10px;
+}
+.why_block3 p{
+    padding: 0px 30px 50px 30px;
+}
+.why_block4{
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    margin: auto;
+    width: 255px;
+    position: relative;
+}
+.why_block4 h4{
+    padding-top: 162px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 10px;
+}
+.why_block4 p{
+    padding: 0px 30px 50px 30px;
+}
+
 .discussion{
     background-color: #FFFFFF;
     padding-bottom: 200px;
@@ -391,6 +483,7 @@ header ul li:last-of-type a{
     position: relative;
     max-width: 255px;
     display: block;
+
  }
 
 .vidjets a{
