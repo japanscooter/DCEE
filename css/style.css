@@ -89,6 +89,7 @@ header ul li:last-of-type a {
     margin-left: 10px;
     font-family: 'Roboto';
 }
+/*main_banner section*/
 
 .main_banner {
     background-image: url('../images/back.png');
@@ -142,6 +143,7 @@ header ul li:last-of-type a {
     color: #FFFFFF;
     text-decoration: none;
 }
+/*main_banner section*/
 
 .bath {
     background-color: #FFFFFF;
@@ -195,6 +197,7 @@ header ul li:last-of-type a {
 .w615 {
     max-width: 615px;
 }
+/*main_banner section*/
 
 .WHY {
     padding-top: 60px;
@@ -321,6 +324,7 @@ header ul li:last-of-type a {
 .why_block4 p {
     padding: 0px 30px 50px 30px;
 }
+/*main_banner section*/
 
 .portfolio {
     padding-top: 30px;
@@ -378,10 +382,8 @@ header ul li:last-of-type a {
     box-shadow: 8px 8px 109px rgba(0, 0, 0, 0.05);
     border-radius: 10px;
     text-decoration: none;
-
-
 }
-
+/*main_banner section*/
 .catalog {
     padding-bottom: 150px;
     padding-top: 10px;
@@ -432,8 +434,8 @@ header ul li:last-of-type a {
     box-shadow: 8px 8px 109px rgba(0, 0, 0, 0.05);
     text-decoration: none;
     border-radius: 10px;
-
 }
+/*main_banner section*/
 
 .discussion {
     background-color: #FFFFFF;
@@ -510,7 +512,7 @@ header ul li:last-of-type a {
     line-height: 150%;
     color: #FFFFFF;
 }
-
+/*main_banner section*/
 
 .vidjets {
     background-image: url('../images/Group379.png');
@@ -551,11 +553,6 @@ header ul li:last-of-type a {
 
 }
 
-.vidjets img {
-    display: block;
-    width: 100%;
-}
-
 .vdj {
     position: relative;
     max-width: 255px;
@@ -567,20 +564,47 @@ header ul li:last-of-type a {
     position: absolute;
     left: 96px;
     top: 78px;
+    display: inline-block;
 }
 
 .radius {
     overflow: hidden;
     border-radius: 20px;
     margin-bottom: 20px;
+    width: 100%;
 }
+.owl-nav .owl-prev:before{
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    content: "\f137";
+    font-size: 30px;
+    color: #FFFFFF;
+    position: relative;
+    left: -80px;
+}
+.owl-nav .owl-next:before{
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    content: "\f138";
+    font-size: 30px;
+    color: #FFFFFF;
+    position: relative;
+    right: -60px;
+}
+.owl-nav{
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    top: 110px;
+}
+/*main_banner section*/
 
 footer {
     padding: 50px 0;
     background-color: #4C6071;
     background-image: url("../images/MaskGroup.png");
     background-size: cover;
-    height: 50vh;
 
 }
 
@@ -604,10 +628,7 @@ footer .contacts p{
 }
 .contacts a{
     margin-right: 10px;
-
 }
-
-
 .general{
     font-family: 'Roboto', sans-serif;
     font-style: normal;
@@ -618,10 +639,8 @@ footer .contacts p{
 .general h2{
     margin-bottom: 30px;
 }
-
 .general p{
     margin-bottom: 30px;
-
 }
 footer a{
     text-decoration: none;
@@ -649,7 +668,6 @@ footer a{
     color: #FFFFFF;
     padding: 45px;
     text-align: center;
-
 }
 .general{
     text-align: right;
