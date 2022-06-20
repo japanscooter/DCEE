@@ -668,6 +668,7 @@ footer a{
     color: #FFFFFF;
     padding: 45px;
     text-align: center;
+    box-sizing: border-box;
 }
 .general{
     text-align: right;
