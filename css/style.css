@@ -675,8 +675,8 @@ footer a{
 }
 
 .quest_banner{
-    background-color: rgba(76, 96, 113, 0.9);
-    background-image: url("../images/quest_backgr.svg");
+    background-color: #4C6071;
+    background-image: url("../images/MaskGroup.png");
     padding-top: 60px;
     padding-bottom: 60px;
 }
